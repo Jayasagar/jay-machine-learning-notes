@@ -26,17 +26,19 @@ Y = f(x)
 Y is ourput category and x is the one or more input attributes/features
 
 ### Supervised Learning
-* In supervised machine learning an algorithm learns a model from training data.
+* In supervised machine learning an algorithm **learns a model** from training data.
 * Prediction of correct values on applying the algorithms on given Dataset.
-* Supervised learning problems can be further grouped into regression and ::::classification problems.
-Classification problem 
-Regression problem
+* Supervised learning problems can be further grouped into regression and classification problems.
+**Classification problem**
+**Regression problem**
+
 Examples:
 	* Problem1: Find out how many similar items we can sell over next 3 months from warehouse : Regression problem 
 	* Problem 2: Find out software account is compromised or hacked? :  Classification problem
-
+	
 ### UnSupervised Learning
 No labels, Here is Dataset , plz find some pattern and group them(Cluster them)
+
 	* Clustering Algorithm: 
 		* News Google website:
 		* Grouping customers by purchasing behavior.
@@ -47,11 +49,11 @@ No labels, Here is Dataset , plz find some pattern and group them(Cluster them)
 	* Density estimation algorithm
 		* Do you need to have some numerical estimate of how strong the fit is into each group?
 	* Examples
-		* k-means for clustering problems.
-		* Apriori algorithm for association rule learning problems
+		* **k-means** for clustering problems.
+		* **Apriori** algorithm for association rule learning problems
 			* Before the event happens
 			* We provide answer , based on idle scenario, like toss a coin: 50% head and tail 
-		* Postperiori
+		* **Postperiori**
 			* After Actual experiment 
 			* Real result after experiment
 		* 
@@ -63,9 +65,9 @@ No labels, Here is Dataset , plz find some pattern and group them(Cluster them)
 * Start with Supervised and try to improve by moving towards semi-supervised
 * Some data is labeled but most of it is unlabeled
 * A good example is a photo archive where only some of the images are labeled, (e.g. dog, cat, person) and the majority are unlabeled.
-*  Many real world machine learning problems fall into this area.
-*  This is because it can be expensive or time consuming to label data as it may require access to domain experts. 
-*  Whereas unlabeled data is cheap and easy to collect and store.
+* Many real world machine learning problems fall into this area.
+* This is because it can be expensive or time consuming to label data as it may require access to domain experts. 
+* Whereas unlabeled data is cheap and easy to collect and store.
 
 - - - -
 > Both regression and classification problems belong to the supervised category of machine learning. In Supervised machine learning, a model or a function is learnt from the data to predict the future data.  
@@ -76,18 +78,18 @@ No labels, Here is Dataset , plz find some pattern and group them(Cluster them)
 A classification problem is when the output variable is a category, such as red or blue or disease and no disease.
 * Is used to predict which class a data point is part of (discrete value). 
 * Classification predicts the 'belonging' to the class.
-Examples:
-	## Name a unknown fruit 
-	## Predict the weather : { Class->Sunny  DataSet->(Degrees:23, Wind: 70, Cloudy, etc…) }
-	## Similarly the prediction of house price can be in words, viz., 'very costly', 'costly', 'affordable', 'cheap', and 'very cheap' : this relates to classification.
+**Examples**:
+		* Name a unknown fruit 
+		* Predict the weather : { Class->Sunny  DataSet->(Degrees:23, Wind: 70, Cloudy, etc…) }
+		* Similarly the prediction of house price can be in words, viz., 'very costly', 'costly', 'affordable', 'cheap', and 'very cheap' : this relates to classification.
 
 ### Regression 
 * A regression problem is when the output variable is a real value, such as dollars or weight.
 * Is used to predict continuous values.
 * where regression predicts a value from a continuous set,
-Examples
-	## How much my house should sold at price????
-	## price of a house depending on the 'size' (sq. feet or whatever unit) and say 'location' of the house, can be some 'numerical value' (which can be continuous) : this relates to regression.
+**Examples**
+	* How much my house should sold at price????
+	* price of a house depending on the 'size' (sq. feet or whatever unit) and say 'location' of the house, can be some 'numerical value' (which can be continuous) : this relates to regression.
 
 Start with Linear, 
 ### Linear Algorithms
@@ -104,9 +106,9 @@ We can
 * SVM
 
 ### Parametric ML Algorithms
-Usage the Assumptions to learn the model
-* Parametric machine learning algorithms are often also called linear machine learning algorithms
-*  Parametric or linear machine learning algorithms often have a high bias but a low variance
+Usage the **Assumptions** to learn the model
+* Parametric machine learning algorithms are often also called **linear machine learning algorithms**
+* Parametric or linear machine learning algorithms often have a **high bias but a low variance**
 * An easy to understand functional form for the mapping function is a line, as is used in linear regression:
 T0 + T1 × x1 + T2 × x2 = 0
 * Where T0, T1 and T2 are the coefficients of the line that control the intercept and slope, and x1 and x2 are two input variables.
@@ -117,18 +119,18 @@ T0 + T1 × x1 + T2 × x2 = 0
 * Faster to train, require less data but may not be as powerful.
 
 ### Non-parametric ML Algorithms
-No Assumptions to learn the model
+**No Assumptions** to learn the model
 * The method does not assume anything about the form of the mapping function other than patterns that are close are likely have a similar output variable.
-*  Nonparametric or nonlinear machine learning algorithms often have a low bias but a high variance.
+* Nonparametric or nonlinear machine learning algorithms often have a **low bias but a high variance**.
 * Examples
 	* Decision Trees like CART and C4.5
 	* Naive Bayes
 	* Support Vector Machines
 	* Neural Networks
 * Limitations
-	* Require a lot more training data to estimate the mapping function
+	* **Require a lot more training data** to estimate the mapping function
 	* A lot slower to train as they often have far more parameters to train.
-	* More of a risk to overfit the training data and it is harder to explain why specific predictions are made.
+	* More of a **risk to overfit** the training data and it is harder to explain why specific predictions are made.
 * 
 
 ### Learning Error/ Prediction error
@@ -137,23 +139,23 @@ There is no escaping the relationship between bias and variance in machine learn
 *  Increasing the bias will decrease the variance.*  Increasing the variance will decrease the bias.
 
 # Algorithm has Low Variance and High Bias
-RoC curve 
+**RoC curve***
 
 
 ### Bias Error
-It Simplifies the assumptions made by the algorithm to make the problem easier to solve i.e. to make the target function easier to learn!
- Generally parametric algorithms have a high bias making them fast to learn and easier to understand.
-*  In turn they are have lower predictive performance on complex problems that fail to meet the simplifying assumptions of the algorithms bias.
-* Low-bias machine learning algorithms include: Decision Trees, k-Nearest Neighbors and Support Vector Machines.
-* High-bias machine learning algorithms include: Linear Regression, Linear Discriminant Analysis and Logistic Regression.
+It **Simplifies the assumptions** made by the algorithm to make the problem easier to solve i.e. to make the target function easier to learn!
+	* Generally **parametric** algorithms have a high bias making them fast to learn and easier to understand.
+	* In turn they are have **lower predictive performance** on complex problems that fail to meet the simplifying assumptions of the algorithms bias.
+	* **Low-bias machine learning algorithms include**: Decision Trees, k-Nearest Neighbors and Support Vector Machines.
+	* **High-bias machine learning algorithms include:** Linear Regression, Linear Discriminant Analysis and Logistic Regression.
 
 ### Variance Error
-Sensitivity of a model to changes to the training data.
+**Sensitivity of a model** to changes to the training data.
 Variance is the amount that the estimate of the target function will change if different training data was used.
 
 - - - -
 
-The cause of poor performance in machine learning is either overfitting or underfitting the data.
+The cause of poor performance in machine learning is either overfitting or under-fitting the data.
 - - - -
 
 ### Overfitting
@@ -178,8 +180,8 @@ we have a way of measuring how well it fits into the data
 h == function == which maps x’s value to y’s value
 
 ### Cost function 
-	# h(x) = Theta 0 + Theta 1 (x)
-	# Example = h(x) =. 1.5 + 0.5*(x)
+	h(x) = Theta 0 + Theta 1 (x)
+	Example = h(x) =. 1.5 + 0.5*(x)
 
 ### Error Rate
 
@@ -209,7 +211,7 @@ Different machine learning algorithms make different assumptions about the shape
 String values
 
 ### Continuous features
-Numericvalues
+Numeric values
 
 #### Confusion Matrix
 https://www-users.cs.umn.edu/~kumar001/dmbook/ch4.pdf
