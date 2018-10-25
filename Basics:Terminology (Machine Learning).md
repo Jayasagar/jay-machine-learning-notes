@@ -32,13 +32,12 @@ Y is ourput category and x is the one or more input attributes/features
 **Classification problem**
 **Regression problem**
 
-Examples:
+###### Examples:
 	* Problem1: Find out how many similar items we can sell over next 3 months from warehouse : Regression problem 
 	* Problem 2: Find out software account is compromised or hacked? :  Classification problem
 	
 ### UnSupervised Learning
 No labels, Here is Dataset , plz find some pattern and group them(Cluster them)
-
 	* Clustering Algorithm: 
 		* News Google website:
 		* Grouping customers by purchasing behavior.
@@ -56,9 +55,6 @@ No labels, Here is Dataset , plz find some pattern and group them(Cluster them)
 		* **Postperiori**
 			* After Actual experiment 
 			* Real result after experiment
-		* 
-
-	* 
 
 ### Semi-Supervised Learning
 * In reality , we do not think about Supervised and semi or unsupervised
@@ -78,7 +74,7 @@ No labels, Here is Dataset , plz find some pattern and group them(Cluster them)
 A classification problem is when the output variable is a category, such as red or blue or disease and no disease.
 * Is used to predict which class a data point is part of (discrete value). 
 * Classification predicts the 'belonging' to the class.
-**Examples**:
+* Examples
 		* Name a unknown fruit 
 		* Predict the weather : { Class->Sunny  DataSet->(Degrees:23, Wind: 70, Cloudy, etc…) }
 		* Similarly the prediction of house price can be in words, viz., 'very costly', 'costly', 'affordable', 'cheap', and 'very cheap' : this relates to classification.
@@ -87,7 +83,7 @@ A classification problem is when the output variable is a category, such as red 
 * A regression problem is when the output variable is a real value, such as dollars or weight.
 * Is used to predict continuous values.
 * where regression predicts a value from a continuous set,
-**Examples**
+* Examples
 	* How much my house should sold at price????
 	* price of a house depending on the 'size' (sq. feet or whatever unit) and say 'location' of the house, can be some 'numerical value' (which can be continuous) : this relates to regression.
 
@@ -304,7 +300,7 @@ a conclusion reached on the basis of evidence and reasoning.
 
 ## Contour Lines
 Draw the boundaries such that we can isolate the features or differentiations
-![](Basics:Terminology%20(Machine%20Learning)/Screen%20Shot%202018-07-07%20at%205.17.30%20AM.png)
+![](Basics:Terminology%20(Machine%20Learning)/Screen%20Shot%202018-07-07%20at%205.17.30%20AM%202.png)
 
 
 ## Grayscale
